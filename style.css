@@ -52,6 +52,72 @@ body{
 }
 
 
+.myFontHeading1{
+	margin-top: 10px;
+	font-size:1.25rem;
+	color: black;
+	font-family:Verdana;
+	text-decoration: underline;
+
+}
+.myFontText{
+	text-align: center;
+	vertical-align: middle;;
+	line-height:2;
+	margin-right:15rem;
+	margin-left: 15rem;
+}
+
+
+.space{
+	margin-top: 10vh;
+}
+
+.image1{
+	display: flex;
+	flex-wrap: wrap;
+	width: 50%;
+    background-color: white;
+    margin-left: 25%;
+
+
+   
+}
+.imageSet{
+	height: 300px;
+}
+
+.im1{
+		background-image: url("java.png");
+		background-size: cover;
+	    background-repeat: no-repeat;
+
+	    width: 20rem;
+	    height: 20rem;
+
+	}
+	.im2{
+		background-image: url("js.png");
+		background-size: cover;
+	    background-repeat: no-repeat;
+	    width: 20rem;
+	    height: 20rem;
+	}
+	.im3{
+		background-image: url(C.png);
+		background-size: cover;
+	    background-repeat: no-repeat;
+	    width: 20rem;
+	    height: 20rem;
+	}
+	.im4{
+		background-image: url("android.jpg");
+		background-size: cover;
+	    background-repeat: no-repeat;
+	    width: 20rem;
+	    height: 20rem;
+	}
+
 @media screen and (min-width: 768px){
 	.bgImage {
 		background-position: right 0;
