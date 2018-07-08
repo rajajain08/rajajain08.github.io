@@ -1,0 +1,73 @@
+:root {
+    font-size: 16px;
+}
+body{
+	margin: 0;
+}
+.header{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	background: rgb(0,0,0);
+    background: rgba(0,0,0, 0.3);
+}
+.myContainer{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #000000;
+	width: 100%;
+	height: 600px;
+
+}
+
+.bgImage{
+	background-image: url("IMG_20180527_172824162_HDR2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 600px;
+	background-position: right 0;
+	
+    
+}
+.myFont{
+	margin-top: 20vh;
+	font-size:2.5em;
+	margin-left: 15vw;
+	color: white;
+	font-family:Verdana;
+	line-height: 2;
+	font-weight: bold;
+	 text-shadow: 2px 2px 4px #545454;
+
+}
+.myFontHeading{
+	margin-top: 10px;
+	font-size:1.25rem;
+	color: orange;
+	font-family:Verdana;
+
+}
+
+
+@media screen and (min-width: 768px){
+	.bgImage {
+		background-position: right 0;
+	}
+
+}
+
+@media screen and (min-width: 280px) and (max-width: 600px) {
+
+
+    .bgImage {
+       background-image: url("img2.png");
+
+    }
+    .myFont{
+    	margin-top: 30vh;
+    	font-size: 1.3rem
+    }
+}
