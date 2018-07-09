@@ -76,18 +76,18 @@ body{
 .image1{
 	display: flex;
 	flex-wrap: wrap;
-	width: 50%;
+	width: 50rem;
     background-color: white;
     margin-left: auto;
     margin-right: auto;
-    height: 40rem;
+    height: 50rem;
+
 
 
    
 }
 .imageSet{
-	height: auto;
-	width: 100%;
+	
 }
 
 .im1{
@@ -110,7 +110,7 @@ body{
 	    height: auto;
 	}
 	.im4{
-		background-image: url("android.jpg");
+		background-image: url("android.png");
 		background-size: cover;
 	    background-repeat: no-repeat;
 	    height: auto;
@@ -139,11 +139,15 @@ body{
 @media screen and (min-width: 768px) {
 
 
+
+
+
     .im1 {
         width: 50%;
-    }
+     }
     .im2{
         width: 50%;
+        
     }
     .im3 {
 
@@ -156,14 +160,21 @@ body{
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
 
+	.image1{
+		width: 20rem;
+		height: 80rem;
+	}
+
 
     .im1{
 
-        width: 50%;
+        width: 100%;
+        
     }
     .im2{
 
-        width: 50%;
+        width: 100%;
+        
     }
     .im3{
 
@@ -175,6 +186,10 @@ body{
 }
 
 @media screen and (max-width: 480px) {
+	.image1{
+		width: 17rem;
+		height: 68rem;
+	}
 
 
 
