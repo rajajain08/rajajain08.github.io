@@ -62,10 +62,10 @@ body{
 }
 .myFontText{
 	text-align: center;
-	vertical-align: middle;;
 	line-height:2;
-	margin-right:15rem;
-	margin-left: 15rem;
+	margin-right:auto;
+	margin-left: auto;
+	width: 70%;
 }
 
 
@@ -78,44 +78,42 @@ body{
 	flex-wrap: wrap;
 	width: 50%;
     background-color: white;
-    margin-left: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40rem;
 
 
    
 }
 .imageSet{
-	height: 300px;
+	height: auto;
+	width: 100%;
 }
 
 .im1{
 		background-image: url("java.png");
 		background-size: cover;
 	    background-repeat: no-repeat;
-
-	    width: 20rem;
-	    height: 20rem;
+        height: auto;
 
 	}
 	.im2{
 		background-image: url("js.png");
 		background-size: cover;
 	    background-repeat: no-repeat;
-	    width: 20rem;
-	    height: 20rem;
+	   height: auto;
 	}
 	.im3{
 		background-image: url(C.png);
 		background-size: cover;
 	    background-repeat: no-repeat;
-	    width: 20rem;
-	    height: 20rem;
+	    height: auto;
 	}
 	.im4{
 		background-image: url("android.jpg");
 		background-size: cover;
 	    background-repeat: no-repeat;
-	    width: 20rem;
-	    height: 20rem;
+	    height: auto;
 	}
 
 @media screen and (min-width: 768px){
@@ -135,5 +133,61 @@ body{
     .myFont{
     	margin-top: 30vh;
     	font-size: 1.3rem
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+
+    .im1 {
+        width: 50%;
+    }
+    .im2{
+        width: 50%;
+    }
+    .im3 {
+
+        width: 50%;
+    }
+    .im4{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+
+    .im1{
+
+        width: 50%;
+    }
+    .im2{
+
+        width: 50%;
+    }
+    .im3{
+
+        width: 100%;
+    }
+    .im4{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+
+
+    .im1{
+        width: 100%;
+    }
+    .im2{
+        width: 100%;
+    }
+    .im3{
+        width: 100%;
+    }
+    .im4{
+        width: 100%;
     }
 }
